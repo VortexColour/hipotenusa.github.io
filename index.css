@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(rgb(2, 194, 98), rgb(43, 21, 165));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+#maindiv {
+    background: linear-gradient(rgb(36, 70, 163), rgb(25, 43, 122));
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    height: 200px;
+    width: 600px;
+    border-radius: 10px;
+}
+#h1a {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: white;
+    font-size: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#h1a:hover {
+    text-shadow: 0 0 5px white;
+}
+.b {
+    margin-top: 5px;
+}
+#laba {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: white;
+    font-size: 18px;
+}
+#labb {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: white;
+    font-size: 18px;
+}
+#inpa, #inpb {
+    width: 200px;
+    height: 25px;
+    border-radius: 17px;
+    border-style: none;
+}
+#but {
+    margin-top: 10px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: black;
+    background-color: white;
+    border-style: none;
+    border-radius: 15px;
+    height: 30px;
+    font-weight: 900;
+    transition: all 0.2s ease;
+}
+#but:hover {
+    color: white;
+    background-color: black;
+    text-shadow: 0 0 3px white;
+}
+#answer {
+    margin-top: 11px;
+    color: white;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 0px;
+    transition: all 0.3s;
+}
+#copyright {
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    color: white;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    font-size: 15px;
+}
